@@ -1,6 +1,6 @@
 # sunnier
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/<USERNAME>/<REPO>?branch=master&svg=true)](https://ci.appveyor.com/project/<USERNAME>/<REPO>)
-[![Travis-CI Build Status](https://travis-ci.org/.svg?branch=master)](https://travis-ci.org/)
+[![Travis-CI Build Status](https://travis-ci.org/thierrygosselin/sunnier.svg?branch=master)](https://travis-ci.org/thierrygosselin/sunnier)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/thierrygosselin/sunnier?branch=master&svg=true)](https://ci.appveyor.com/project/thierrygosselin/sunnier)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/sunnier)](https://cran.r-project.org/package=sunnier)
 [![DOI](https://zenodo.org/badge/14548/thierrygosselin/sunnier.svg)](https://zenodo.org/badge/latestdoi/14548/thierrygosselin/sunnier)
 
