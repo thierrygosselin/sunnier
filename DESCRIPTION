@@ -1,0 +1,14 @@
+Package: sunnier
+Type: Package
+Title: Working with cloud compute engine inside R
+Version: 0.0.1
+Authors@R: c(person("Thierry", "Gosselin", email = "thierrygosselin@icloud.com", role = c("aut", "cre")))
+Maintainer: Thierry Gosselin <thierrygosselin@icloud.com>
+Description: Set of functions to make your day a little sunnier when working with cloud compute engine like Amazon and Google, all inside R.
+LazyData: TRUE
+License: GPL (>=2)
+LazyLoad: yes
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
+URL: https://github.com/thierrygosselin/sunnier
+BugReports: https://github.com/thierrygosselin/sunnier/issues
