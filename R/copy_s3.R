@@ -2,8 +2,8 @@
 #' @title Copy files from/to Amazon s3 drive.
 #' @description Copy files from/to Amazon s3 drive.
 #' @param x Filename inside the \code{from.folder} to copy
-#' @param from.folder
-#' @param destination.folder
+#' @param from.folder The folder where the files are stored
+#' @param destination.folder The destination folder
 #' @param include To include certain type of files
 #' @param folder To transfer entire folder uses aws --recursive option
 
@@ -11,6 +11,7 @@
 #' @rdname copy_s3
 #' @import stringi
 #' @import dplyr
+#' @importFrom  purrr walk
 #' @author Thierry Gosselin \email{thierrygosselin@@icloud.com}
 
 

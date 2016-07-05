@@ -5,6 +5,12 @@ Version: 0.0.1
 Authors@R: c(person("Thierry", "Gosselin", email = "thierrygosselin@icloud.com", role = c("aut", "cre")))
 Maintainer: Thierry Gosselin <thierrygosselin@icloud.com>
 Description: Set of functions to make your day a little sunnier when working with cloud compute engine like Amazon and Google, all inside R.
+Imports:
+    stringi,
+    purrr,
+    dplyr
+Suggests:
+    knitr
 LazyData: TRUE
 License: GPL (>=2)
 LazyLoad: yes
