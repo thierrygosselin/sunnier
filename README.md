@@ -17,7 +17,6 @@ To try out the dev version of **sunnier**, follow the 2 steps below:
 **Step 1:** Install or load the package **devtools**
 ```r
 if (!require("devtools")) install.packages("devtools") # to install
-library(devtools) # to load
 ```
 
 **Step 2:** Install **sunnier**
