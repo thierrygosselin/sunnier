@@ -12,7 +12,6 @@
 #' @export
 #' @rdname copy_s3
 #' @importFrom stringi stri_join
-#' @import dplyr
 #' @importFrom  purrr walk
 #' @author Thierry Gosselin \email{thierrygosselin@@icloud.com}
 
@@ -36,8 +35,15 @@ copy_s3 <- function(x, from.folder, destination.folder, include = NULL, folder =
     from.path <- stringi::stri_join(from.folder, "/")
     destination.path <- stringi::stri_join(destination.folder, "/")
 
-    command.paste <- stringi::stri_join("aws s3 cp ", from.path, " ", destination.path, folder, include)
-    system(command = command.paste)
+    # command.paste <- stringi::stri_join("aws s3 cp ", from.path, " ", destination.path, folder, include)
+    # system(command = command.paste)
+
+    command.arguments <- stringi::stri_join("s3 cp ", from.path, " ", destination.path, folder, include)
+    system2(
+      command = "aws",
+      args = command.arguments
+    )
+
 
   } else {
     transfer_s3 <- function(x, from.folder, destination.folder, include){
